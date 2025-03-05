@@ -1,0 +1,24 @@
+body{
+    background-image: url(cool-background.png);
+    background-size: cover;
+}
+
+.listopt:hover{
+    box-shadow: 0px 0px 5px grey;
+    background-color: #29292b;
+    color: white;
+}
+.listoptdd:hover{
+    box-shadow: 0px 0px 5px grey;
+    background-color: #5c899d;
+    color: white;
+}
+.listoptdd{
+    border-radius: 1.5rem;
+}
+.listopt{
+    border-radius: 1.5rem;
+}
+.navbar{
+    box-shadow: 0px 0px 8px grey;
+}
