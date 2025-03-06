@@ -24,7 +24,7 @@ body{
     box-shadow: 0px 0px 10px black;
 }
 .herosct{
-    margin-top: 6rem;
+    margin-top: 10rem;
     padding-bottom: 1rem ;
 }
 .herocontent{
@@ -89,7 +89,7 @@ body{
 }
 .choose-us p{
     font-weight: 600;
-    color: #29292b;
+    color: grey;
 }
 
 .internship{
@@ -106,6 +106,7 @@ body{
     font-weight: 700;
     text-align: center;
     text-shadow: 2px 2px 5px #E54C41;
+    font-size: 3rem;
 }
 .interntxt p{
     color: grey;
