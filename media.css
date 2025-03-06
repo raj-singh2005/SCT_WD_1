@@ -1,0 +1,8 @@
+@media (max-width:750px){
+    .herocontent{
+        flex-direction: column;
+    }
+    .heroheading,.choose-us {
+        width: 100%;
+    }
+}

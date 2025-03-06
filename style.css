@@ -1,6 +1,7 @@
 body{
     background-image: url(cool-background.png);
     background-size: cover;
+
 }
 
 .listopt:hover{
@@ -20,5 +21,70 @@ body{
     border-radius: 1.5rem;
 }
 .navbar{
+    box-shadow: 0px 0px 10px black;
+}
+.herosct{
+    margin-top: 6rem;
+    height: 40vh;
+}
+.herocontent{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 3rem;
+}
+
+.heroheading{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    gap: 1rem;
+
+}
+.heroheading h1{
+    font-weight: 700;
+}
+.heroheading p{
+    color: grey;
+    font-weight: 600;
+}
+
+.heroheading button{
+    border: none;
+    border-radius: 1.5rem;
+    font-size: 1rem;
+    padding: 0.8rem 1.5rem;
+    color: white;
+    background-color: #E54C41;
+
+}
+
+.heroheading button:hover{
     box-shadow: 0px 0px 8px grey;
+}
+.choose-us{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-right: 2rem;
+    gap: 1rem;
+    padding-left: 2rem;
+    
+
+}
+.choose-us h4{
+    color: #E54C41;
+}
+.choose-us h2{
+    font-weight: 700;
+}
+.choose-us p{
+    font-weight: 600;
+    color: #29292b;
 }
