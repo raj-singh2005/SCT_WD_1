@@ -6,7 +6,7 @@ body{
 
 .listopt:hover{
     box-shadow: 0px 0px 5px grey;
-    background-color: #29292b;
+    background-color: #E54C41;
     color: white;
 }
 .listoptdd:hover{
@@ -25,7 +25,7 @@ body{
 }
 .herosct{
     margin-top: 6rem;
-    height: 40vh;
+    padding-bottom: 1rem ;
 }
 .herocontent{
     width: 100%;
@@ -47,6 +47,7 @@ body{
 }
 .heroheading h1{
     font-weight: 700;
+    text-shadow: 2px 2px 5px #E54C41;
 }
 .heroheading p{
     color: grey;
@@ -60,11 +61,12 @@ body{
     padding: 0.8rem 1.5rem;
     color: white;
     background-color: #E54C41;
+    transition: all 0.7s;
 
 }
 
 .heroheading button:hover{
-    box-shadow: 0px 0px 8px grey;
+    box-shadow: 0px 0px 20px #5c899d;
 }
 .choose-us{
     width: 50%;
@@ -83,8 +85,98 @@ body{
 }
 .choose-us h2{
     font-weight: 700;
+    text-shadow: 2px 2px 5px #5c899d;
 }
 .choose-us p{
     font-weight: 600;
     color: #29292b;
+}
+
+.internship{
+    background-color: #d3e7fa;
+    width: 100%;
+    margin-top: 10rem;
+    padding-bottom: 4rem;
+    
+}
+.interntxt{
+    padding: 5rem;
+}
+.interntxt h2{
+    font-weight: 700;
+    text-align: center;
+    text-shadow: 2px 2px 5px #E54C41;
+}
+.interntxt p{
+    color: grey;
+    font-weight: 600;
+    text-align: center;
+}
+.interncards{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 1rem;
+
+}
+.card{
+    text-align: center;
+    background-color: white;
+    padding: 40px 30px;
+    width: 350px;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+    transition: all 0.8s;
+    margin-top: 2rem;
+}
+.card a{
+    text-decoration: none;
+    background-color: #E54C41;
+    color: white;
+    border-radius: 1rem;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    
+}
+.card h4{
+  
+    font-weight: 700;
+}
+
+.card p{
+    color: grey;
+}
+
+.card:hover{
+    box-shadow: 0px 0px 25px #E54C41;
+  
+}
+
+.our-feature{
+    text-align: center;
+    margin: 2rem;
+}
+.our-feature h2{
+    font-weight: 700;
+    text-shadow: 2px 2px 5px #E54C41;
+    margin-top: 10rem;
+    font-size: 3.5rem;
+}
+.features{
+    display: flex;
+   margin-top: 8rem;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 4rem;
+    margin-bottom: 8rem;
+}
+.feature{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 350px;
+    align-items: flex-start;
 }

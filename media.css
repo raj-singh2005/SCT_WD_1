@@ -1,8 +1,12 @@
 @media (max-width:750px){
     .herocontent{
-        flex-direction: column;
+        flex-wrap: wrap;
     }
     .heroheading,.choose-us {
         width: 100%;
     }
+    .features{
+        flex-wrap: wrap;
+    }
+
 }
