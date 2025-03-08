@@ -8,5 +8,8 @@
     .features{
         flex-wrap: wrap;
     }
+    .footer{
+        flex-wrap: wrap;
+    }
 
 }
